@@ -50,3 +50,6 @@ Sample Output:
 	Enter 0 to quit.
 	Enter doc no, to view the document.
 
+The criteria for relavence is explained in relavence.txt
+The program uses Suffix Tress for string matching </br>
+Ukkonens Algorithm was employed for BUilding a suffix tree.
