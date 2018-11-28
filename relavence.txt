@@ -1,0 +1,35 @@
+-Abhishek Saseendran
+-01FB16ECS018
+-Adv Algo Section B
+-Assignment 3
+
+Relevance
+	
+	A 'rank value' is calculated for each document searched 
+	And for every rank greater than the previous one , the document is appended to the list of results
+	And the top results i.e. with the maximum rank value is listed , no. of results displayed will be max 'k'
+
+	The formula for rank is as follows :
+
+	Rank =	  (title_count   *  1000)
+			+ (content_count *  50)
+			+ (content_count_individual * 50)
+			+ (count_of_longest_substring * %ofStringLen * 1)
+
+   >title_count : is 1 if the entire query is present in the title, else 0
+   	this is given the highest weightage of 1000 points. 
+
+   >content_count : it is number of occurences of the entire query in the content of the document. It is given a weightage of 50 points 
+
+   >content_count_individual : count of occurences of individual words of query 
+   Same weightage of 50 points
+   length of individual words of query capped at 3 to avoid stopper words 
+
+   >count_of_longest_substring : finds the longest substring of the query present in the content and finds its count. The weightage depends on the length of the substring as well.
+   weightage is given as : length(substring)/length(query) * 1
+   length of substring is capped at 2 to avoid stopper words.
+
+   
+
+
+
