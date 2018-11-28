@@ -4,11 +4,10 @@ Given Query string, search a large data-set and retrieve relevant documents
 
 Files needed:
 
-	main.c</br>
-	implementation.c</br>
-	suffix_tree.h</br>
-	clean_data_cs.csv(the data set)</br>
-  
+	main.c
+	implementation.c
+	suffix_tree.h
+	clean_data_cs.csv(the data set)  
 
 Link to Data Set:</br>
 https://drive.google.com/open?id=1n3jJB80O0_BC9Kd4YibQu24RIIy7Vez2</br>
@@ -16,7 +15,7 @@ https://drive.google.com/open?id=1n3jJB80O0_BC9Kd4YibQu24RIIy7Vez2</br>
 
 Compilation Instruction:
 
-	> gcc main.c implementation.c </br>
+	> gcc main.c implementation.c 
 	> a.exe 
 
 Please Follow on screen instructions after executing
