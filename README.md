@@ -52,4 +52,4 @@ Sample Output:
 
 The criteria for relavence is explained in relavence.txt</br>
 The program uses Suffix Tress for string matching </br>
-Ukkonens Algorithm was employed for BUilding a suffix tree.
+Ukkonens Algorithm was employed for Building a suffix tree.
